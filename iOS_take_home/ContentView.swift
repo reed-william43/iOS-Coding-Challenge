@@ -13,7 +13,7 @@ struct URLImage: View {
     
     @State var data: Data?
     
-    var body: some View {
+    var body: some View { 
         if let data = data, let uiimage = UIImage(data: data) {
             Image(uiImage: uiimage)
                 .resizable()
