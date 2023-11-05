@@ -79,6 +79,7 @@ class ViewModel: ObservableObject {
                 return
             }
             
+            
             // convert to JSON
             do {
                 let response = try JSONDecoder().decode([String: [Dessert]].self, from: data)

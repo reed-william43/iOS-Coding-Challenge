@@ -69,6 +69,7 @@ struct ContentView: View {
                             }
                         }
                         .navigationTitle("Desserts")
+                
                         .onAppear {
                             viewModel.fetch()
                         }
